@@ -92,10 +92,14 @@ p a img {
   opacity: 0.15;
 }
 
+.landscape-wrap {
+  width: 100%;
+  max-width: 600px;
+}
+
 .landscape {
   position: relative;
   width: 100%;
-  max-width: 400px;
   height: 0;
   padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
   border-radius: 2em;
