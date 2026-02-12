@@ -91,3 +91,21 @@ p a img {
   transition: opacity 1.5s;
   opacity: 0.15;
 }
+
+.landscape {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.landscape iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}

@@ -106,7 +106,7 @@ const scroll = (scrollTop / scrollMax);
 
 camera.position.z = 5 + (scroll * 20);
 
-if (scroll > 0.9 && !enderText.classList.contains('switch-off')) {
+if (scroll > 0.95 && !enderText.classList.contains('switch-off')) {
   enderText.classList.add('switch-off');
 }
 
@@ -122,7 +122,7 @@ function moveCamera() {
   camera.position.z = 5 + (scroll * 20);
 
   // gltfSkele.scene.position.z = 10 + (scroll * 15);
-  if (scroll > 0.9 && !enderText.classList.contains('switch-off')) {
+  if (scroll > 0.95 && !enderText.classList.contains('switch-off')) {
     enderText.classList.add('switch-off');
   }
 }
